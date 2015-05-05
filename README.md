@@ -11,7 +11,7 @@ Insert Jquery and the two files of this project, modal.css and modal.js, in the 
 </p>
 
 <p>
-```html
+```
 	<link rel="stylesheet" href="modal.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="modal.js"></script>
@@ -19,7 +19,7 @@ Insert Jquery and the two files of this project, modal.css and modal.js, in the 
 </p>
 
 <p>
-```html
+```
 	<script>
 		(function($) {
 			$(document).ready(function(){
