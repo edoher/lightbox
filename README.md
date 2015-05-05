@@ -10,13 +10,13 @@ Just a simple Jquery plugin for making one or more Modal / Lightbox windows in y
 Insert Jquery and the two files of this project, modal.css and modal.js, in the HEAD tag of your HTML
 </p>
 
-```
+```html
 <link rel="stylesheet" href="modal.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="modal.js"></script>
 ```
 
-```
+```javascript
 (function($) {
 $(document).ready(function(){
 //Example use. Add funcitonality to element that opens window and select target Modal
