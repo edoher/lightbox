@@ -11,15 +11,15 @@ Insert Jquery and the two files of this project, modal.css and modal.js, in the 
 </p>
 
 <p>
-<code>
+```html
 	<link rel="stylesheet" href="modal.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="modal.js"></script>
-</code>
+```
 </p>
 
 <p>
-<code>
+```html
 	<script>
 		(function($) {
 			$(document).ready(function(){
@@ -36,5 +36,5 @@ Insert Jquery and the two files of this project, modal.css and modal.js, in the 
 			});
 		})(jQuery);
 	</script>
-</code>
+```
 </p>
