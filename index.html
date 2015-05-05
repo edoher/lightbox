@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Modal sample | Eduardo Hernández</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content=""/>
+		<meta name="author" content=""/>
+		<meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+		<link rel="stylesheet" href="modal.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="modal.js"></script>
+	</head>
+	
+	<body>
+		<p>
+		<button id='open_modal'>Click me!</button>
+		</p>
+		<div id='modal'>
+			<h1>This is the modal's content!</h1>
+		</div>
+		</p>
+		<p>
+			<button id='open_modal_2'>Click me too!</button>
+		</p>
+		<div id='modal_2'>
+			<h1>This is the modal's content!</h1>
+		</div>
+		<p>
+			<button id='open_modal_3'>Click me too pleaseeeee!</button>
+		</p>
+		<div id='modal_3'>
+			<h1>This is the modal's content!</h1>
+		</div>
+		
+		<script>
+			(function($) {
+				$(document).ready(function(){
+
+					//Example use. Add funcitonality to element that opens window and select target Modal
+					$('#open_modal').lightbox({modalWindow:'#modal'});
+
+					//Example use 2. Add extra styles to the modal window. It's wise to center if we change size, padding or something in that order
+					$('#open_modal_2').lightbox({ modalWindow:'#modal_2', customStyle: {'color':'#ccc', 'padding':'30px'}, center: true });
+
+					//Example use 3. Add size to window and center programatically rather than using the CSS file
+					$('#open_modal_3').lightbox({ modalWindow:'#modal_3', width: 1000, height: '30em', center: true });
+
+				});
+			})(jQuery);
+		</script>		
+	</body>
+</html>
